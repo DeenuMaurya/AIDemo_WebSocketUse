@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+openai>=1.0.0
+pinecone-client
+langchain==0.1.16
+langchain-openai
+langchain-pinecone
+python-dotenv
