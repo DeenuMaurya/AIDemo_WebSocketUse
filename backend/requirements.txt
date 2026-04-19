@@ -1,5 +1,5 @@
 fastapi
-uvicorn
+uvicorn[standard]
 openai>=1.0.0
 pinecone-client
 langchain==0.1.16
