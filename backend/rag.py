@@ -14,7 +14,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # 🧠 Pinecone
 pc = Pinecone(api_key=PINECONE_API_KEY)
-index = pc.Index("ai-patient-data")
+index = pc.Index("ai-patient-data-v2")
 
 # 🔍 Embeddings
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
